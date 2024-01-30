@@ -24,7 +24,7 @@ public:
 
 class Blaster : public Weapon {
 public:
-    Blaster() : Weapon(10, 6, 6) {}
+    Blaster() : Weapon(10, -1, -1) {}
 };
 
 class Pistol : public Weapon {
